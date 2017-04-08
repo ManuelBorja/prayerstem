@@ -8,4 +8,6 @@ app.get('/', function(req, res){
 	res.render('home');
 });
 
-app.listen(80);
+var port = process.env.PORT || 1337;
+app.listen(port);
+console.log("Server running at http://localhost:%d", port);
