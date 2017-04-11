@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    	<title>Registro</title>
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <style>
+      .row{
+        padding: 2px;
+      }
+      .bg-primary{
+        background-color: #284162;
+      }
+      h1{
+        padding: 5px;
+      }
+      h2{
+        padding: 5px;
+      }
+
+      </style>
+
+  </head>
+<body>
+
+	<div class="container">
+
+		<h1 class="bg-primary"> BELIEVERS FORM </h1>
+
+		<form class="form" action="">
+
+			<h2 class="bg-info">IDENTIFICATION</h2>
+
+			<div class="row">
+				<div class="col-sm-12">
+          <label class="control-label" for="name">Name</label>
+					<input class="form-control" type="text" id="name" placeholder="Jean Réjean Roy Gagne">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+          <label class="control-label" for="ageGroup">Age Group</label>
+					<select class="form-control" id="ageGroup">
+						<option value="1">--- Select One ---</option>
+						<option value="1">Under 18</option>
+						<option value="2">18 - 25</option>
+						<option value="3">26 & Above</option>
+					</select>
+				</div>
+				<div class="col-sm-6">
+          <label class="control-label" for="ageGroup">Gender</label>
+					<select class="form-control" id="gender">
+						<option value="1">--- Select One ---</option>
+						<option value="M">Male</option>
+						<option value="F">Female</option>
+					</select>
+				</div>
+			</div>
+      <div class="row bg-success">
+				<div class="col-sm-12">
+           <label class="control-label" for="ageGroup">Address Information</label>
+        </div>
+      </div>
+			<div class="row">
+				<div class="col-sm-3">
+					<input class="form-control" type="text" id="address" placeholder="Address">
+				</div>
+				<div class="col-sm-3">
+					<input class="form-control" type="text" id="city" placeholder="City">
+				</div>
+				<div class="col-sm-3">
+					<input class="form-control" type="text" id="province" placeholder="Province">
+				</div>
+				<div class="col-sm-3">
+					<input class="form-control" type="text" id="postalCode" placeholder="Postal Code">
+				</div>
+			</div>
+
+      <div class="row">
+				<div class="col-sm-12 bg-success">
+           <label class="control-label" for="phone1">Phone Numbers</label>
+        </div>
+      </div>
+
+			<div class="row">
+				<div class="col-sm-1">
+					<input class="form-control" ype="text" id="pref1" placeholder="+1">
+				</div>
+				<div class="col-sm-3">
+					<input class="form-control" type="text" id="phone1" placeholder="Phone (O/H)">
+				</div>
+				<div class="col-sm-offset-2 col-sm-1">
+					<input class="form-control" type="text" id="pref2" placeholder="+1">
+				</div>
+				<div class="col-sm-3">
+					<input class="form-control" type="text" id="Phone2" placeholder="Phone Cell">
+				</div>
+			</div>
+
+      <div class="row bg-success">
+				<div class="col-sm-12">
+           <label class="control-label" for="phone1">Social Networks</label>
+        </div>
+      </div>
+
+			<div class="row">
+				<div class="col-sm-3">
+					<label class="control-label" for="idFacebook">ID Facebook</label><input type="text" class="form-control" id="idFacebook">
+				</div>
+				<div class="col-sm-3">
+					<label class="control-label" for="idTwitter">ID Twitter</label><input type="text" class="form-control" id="idTwitter">
+				</div>
+				<div class="col-sm-3">
+					<label class="control-label" for="idInstagram">ID Instagram</label><input type="text" class="form-control" id="idInstagram">
+				</div>
+				<div class="col-sm-3">
+					<label class="control-label" for="idOtherSN">Other</label><input type="text" class="form-control" id="idOtherSN">
+				</div>
+			</div>
+
+      <div class="row bg-success">
+				<div class="col-sm-12">
+           <label class="control-label" for="phone1">Emails</label>
+        </div>
+      </div>
+
+
+			<div class="row">
+				<div class="col-sm-6">
+					<label class="control-label" for="idFacebook">Email</label><input type="text" class="form-control" id="idFacebook">
+				</div>
+				<div class="col-sm-6">
+					<label class="control-label" for="idTwitter">Other Email</label><input type="text" class="form-control" id="idTwitter">
+				</div>
+			</div>
+
+      <div class="row bg-success">
+				<div class="col-sm-12">
+           <label class="control-label" for="phone1">Languajes</label>
+        </div>
+      </div>
+
+			<div class="row">
+				<div class="col-sm-6">
+					<label class="control-label" for="languaje">Languaje</label>
+					<select class="form-control" id="languaje">
+						<option value="">Languaje</option>
+						<option value="M">English</option>
+						<option value="F">French</option>
+					</select>
+				</div>
+				<div class="col-sm-6">
+					<label class="control-label" for="otherLang">Other Languaje</label><input type="text" class="form-control" id="otherLang">
+				</div>
+			</div>
+
+      <div class="row bg-success">
+				<div class="col-sm-12">
+					<label class="control-label" for="aditionalInfo">Additional Info</label>
+        </div>
+      </div>
+
+			<div class="row">
+				<div class="col-sm-12">
+					<textarea class="form-control" id="aditionalInfo" cols="30" rows="10"></textarea>
+				</div>
+			</div>
+
+			<h2 class="bg-info">MINISTRIES YOU FEEL CALLED TO SERVICE / COMMENTS</h2>
+
+			<div class="row">
+				<div class="col-sm-6">
+
+					 <div class="checkbox">
+					    <label>
+					      <input type="checkbox" id="checkboxWarning" value="option1">
+					      Hospitality
+					    </label>
+					  </div>
+
+
+					 <div class="checkbox">
+					    <label>
+					      <input type="checkbox" id="checkboxWarning" value="option1">
+					      Hospitality
+					    </label>
+					  </div>
+
+
+					 <div class="checkbox">
+					    <label>
+					      <input type="checkbox" id="checkboxWarning" value="option1">
+					      Music 
+					    </label>
+					  </div>
+
+
+					 <div class="checkbox">
+					    <label>
+					      <input type="checkbox" id="checkboxWarning" value="option1">
+					      Intercessory
+					    </label>
+					  </div>
+
+
+					 <div class="checkbox">
+					    <label>
+					      <input type="checkbox" id="checkboxWarning" value="option1">
+					      Healing
+					    </label>
+					  </div>
+
+					 <div class="checkbox">
+					    <label>
+					      <input type="checkbox" id="checkboxWarning" value="option1">
+					      Evangelization
+					    </label>
+					  </div>
+
+					 <div class="checkbox">
+					    <label>
+					      <input type="checkbox" id="checkboxWarning" value="option1">
+					      IT (Website, etc)
+					    </label>
+					  </div>
+
+					 <div class="checkbox">
+					    <label>
+					      <input type="checkbox" id="checkboxWarning" value="option1">
+					      Media
+					    </label>
+					  </div>
+
+					 <div class="checkbox">
+					    <label>
+					      <input type="checkbox" id="checkboxWarning" value="option1">
+					      Formation
+					    </label>
+					  </div>
+
+					  <label class="control-label" for="otherOpt">Other</label><input type="text" class="form-control" id="otherOpt">
+
+				</div>
+
+				<div class="col-sm-6">
+					  <h3>Available Time</h3>
+					  <label class="control-label" for="otherOpt">Hours /day,week,month:</label><input type="text" class="form-control" id="otherOpt">
+
+					  <label class="control-label" for="otherOpt">Events</label><input type="text" class="form-control" id="otherOpt">
+
+					  <label class="control-label" for="otherOpt">Specify</label><input type="text" class="form-control" id="otherOpt">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-12">
+					<h3>Formation / Pilgrimages</h3>
+					<div class="checkbox">
+					    <label>
+					      <input type="checkbox" id="checkboxWarning" value="option1">
+					      Interest in Formation
+					    </label>
+					 </div>
+					 <div class="checkbox">
+					    <label>
+					      <input type="checkbox" id="checkboxWarning" value="option1">
+					      Interest in Pilgrimages?
+					    </label>
+					 </div>
+
+					<label class="control-label" for="otherOpt">If Yes, specify</label><input type="text" class="form-control" id="otherOpt">
+				</div>
+			</div>
+
+			<h2 class="bg-info">AMBASADOR</h2>
+			<div class="row">
+				<div class="col-sm-12">
+					<h3>Formation / Pilgrimages</h3>
+					<div class="checkbox">
+					    <label>
+					      <input type="checkbox" id="checkboxWarning" value="option1">
+					      Would you like to colaborate as ambassador in Evangelization / Promotion Initiatives ? 	(Conferences, Assemblies, and other)
+					    </label>
+					 </div>
+
+				</div>
+			</div>
+		</form>
+
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
